@@ -15,7 +15,7 @@ public class JdbcApp3 {
 		Statement st = null;
 		BufferedReader br = null;
 		try {
-			//Loading the Driver
+			//Loading the Driver Details
 		Class.forName("oracle.jdbc.OracleDriver");
 		   //establish the connection
 		con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "system", "mohan");
